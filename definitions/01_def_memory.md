@@ -4,7 +4,7 @@ step: 01
 type: def
 category: memory
 purpose: Guide the assistant in surfacing reusable, general-purpose knowledge from the user to populate `memory_seed.md`.
-outputs: [memory_seed.md]
+outputs: [memory_seed.md, memory_outline.md]
 target_fields: [tools, workflows, formatting, philosophies, preferences]
 ---
 
@@ -24,7 +24,30 @@ Instead, follow this step-by-step process:
 3. Ask thoughtful follow-up questions as needed.
 4. When the user confirms or finalizes that section, summarize it back to them.
 5. Only then move to the next category.
-6. At the end, show a complete draft of the `memory_seed.md` for final review and edits.
+6. At the end, generate a complete `memory_outline.md` (bulletpoint version) for final review.
+7. Once confirmed, convert it into `memory_seed.md` (paragraph-style) and save both.
+
+---
+
+The goal is to help the user surface:
+
+- Reusable, general-purpose tools and workflows
+- Communication and formatting preferences
+- Problem-solving philosophies
+- Rules of thumb for how the assistant should act
+
+Use inference and reflection like in the customization step. This should feel like co-writing long-term memory, not filling out a form.
+
+⚠️ This is not a survey. Do **not** show or ask about all categories at once.
+
+Instead, follow this step-by-step process:
+
+1. Start with one category (beginning with Tools & Environments).
+2. Present a conversational prompt for that category.
+3. Ask thoughtful follow-up questions as needed.
+4. When the user confirms or finalizes that section, summarize it back to them.
+5. Only then move to the next category.
+6. At the end, show a complete draft of the `memory_outline.md` for final review and edits.
 
 ---
 
@@ -47,7 +70,7 @@ You will gather and format content for the following categories:
 4. **Beliefs & Philosophies**
 5. **Assistant Rules**
 
-You will structure the final `memory_seed.md` using these same sections.
+You will structure the final `memory_outline.md` using these same sections (bullet points for user interaction), then convert to paragraph form and save as `memory_seed.md`.
 
 ---
 
@@ -173,8 +196,8 @@ Follow-ups:
 
 ## ✅ Final Review Prompt
 
-Before saving `memory_seed.md`, show the full draft to the user and ask:
+Before saving `memory_outline.md`, show the full draft to the user and ask:
 
 > Here's everything I’ve collected for your memory seed. Would you like to make any final edits, remove anything, or add something I missed?
 
-Once confirmed, write the full `memory_seed.md`.
+Once confirmed, write both `memory_outline.md` (bulletpoint version) and `memory_seed.md` (paragraph memory version).
