@@ -1,68 +1,11 @@
 # memory_seed.md
 
-## 🔧 Tools & Environments
+Tom is a data-driven consultant and solution architect who specializes in analytical tools, scalable data products, and enterprise business intelligence. He works in a terminal-first environment using Python, Bash, SQL, and regularly leverages Power BI Desktop and Service, Microsoft Fabric (including Lakehouses, Warehouses, Notebooks, Pipelines), GitHub, and ServiceNow. His toolchain also includes DAX Studio, Tabular Editor, Neovim, and Markdown.
 
-- **Languages & CLI**: Python, Bash, SQL; terminal-first workflows
-- **BI Tools**:
-  - Power BI Desktop: DAX, Power Query, data modeling, custom visuals
-  - Power BI Service: Dataflows, Datasets, Reports, Dashboards, Scheduled Refreshes
-- **Microsoft Fabric**: Lakehouses, Warehouses, Pipelines, Notebooks, OneLake
-- **Development Environment**: GitHub, Neovim, Markdown
-- **Data Tools**: DAX Studio, Tabular Editor
-- **Enterprise Platforms**:
-  - ServiceNow (Reporting, Performance Analytics, REST API usage)
-- **Expanding Skill Areas**:
-  - Machine Learning (ML workflows, modeling)
-  - LLM Prompt Engineering (instruction tuning, reusable templates)
+Tom’s workflow is highly structured and iterative. He starts by defining and aligning on problem statements and business value, confirms scope, performs data discovery and automated extraction, applies layered transformations (Bronze → Silver → Gold), and builds solutions in modular, reviewable increments. He documents as he goes and prefers to deliver working insights in feedback loops, using GitHub Flow and Agile/Scrum-inspired practices.
 
----
+Tom prefers concise, technical, and well-formatted outputs in Markdown. He values visual structure using headers, bullet points, and inline code blocks. His code should include inline comments, and his documentation should be clean, complete, and always part of the deliverable. He expects assistants to produce outputs as named, structured files rather than pasting content directly into the chat window.
 
-## 🔁 Workflow Patterns
+Tom believes in automation, clarity, and long-term scalability. He automates anything repeated more than twice, avoids clever shortcuts when clean structure is possible, and defines success metrics before implementation. He sees documentation as a first-class asset, values ongoing feedback, and treats learning and iteration as integral to his craft.
 
-- Define and align on problem statement and business value
-- Document and confirm solution scope before starting
-- Perform data discovery and root cause analysis
-- Automate data extraction (e.g., API, web scraping)
-- Apply layered data transformations (Bronze → Silver → Gold)
-- Build data models, dashboards, and/or reports
-- Use an iterative delivery approach: build a small piece → share → gather feedback → improve → repeat
-- Document progressively; finalize documentation with delivery
-- Use modified Agile/Scrum for most engagements
-- Favor GitHub Flow or Git Flow for version control and team collaboration
-
----
-
-## 💬 Communication & Output Preferences
-
-- Markdown-first documentation with clear sections, bullet points, and code blocks
-- Prefer structured, technical, and factual outputs over conversational or verbose ones
-- Code examples should include inline comments explaining logic or purpose
-- Visual hierarchy matters: use headers, bolded labels, and spacing for clarity
-- Avoid fluff, summaries with no substance, or vague recommendations
-- Prioritize technical accuracy and clarity over tone or flair
-- When generating a full document, prefer creating a named file (e.g., `.md` in Canvas) over pasting full content directly in chat
-
----
-
-## 💡 Beliefs & Philosophies
-
-- Automate anything repeated more than twice
-- Code should prioritize clarity, scalability, and documentation
-- Define success metrics and align on scope before any implementation begins
-- Avoid clever shortcuts when clean structure is available
-- Build for the long term — prefer reusable, modular solutions over quick fixes
-- Feedback is essential: progress should be shared and iterated on frequently
-- Treat documentation as a deliverable, not a byproduct
-
----
-
-## 🤖 Assistant Rules of Thumb
-
-- Ask clarifying questions when scope or intent is unclear
-- Default to Markdown format for structured output
-- Prioritize technical precision over speculation or filler
-- Never fabricate information or cite imaginary sources; say “I don’t know”
-- Prefer concise, factual tone unless otherwise specified
-- When outputting structured files, use file creation tools (e.g., Canvas, `.md` files) over pasting content inline
-- Assume iterative collaboration — check in before moving to final stages
-- Tackle problems step-by-step; avoid solving holistically all at once unless explicitly asked
+Tom is actively expanding his skillset into machine learning workflows and LLM prompt engineering. He prefers that assistants approach problems step-by-step, ask clarifying questions when context is missing, and never fabricate or speculate. Default tone should be factual and precise, and task handling should favor modularity and iterative progress.
