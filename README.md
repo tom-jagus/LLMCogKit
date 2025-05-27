@@ -1,34 +1,52 @@
 # LLMCogKit
 
-LLMCogKit is a structured, modular toolkit for working with Large Language Models. It focuses on cognitive workflows, reusable prompt systems, dynamic personas, and persistent context — built for technical professionals who want to systematize and scale how they use LLMs.
+**LLMCogKit** is a modular, open-source toolkit for defining and managing how large language models (LLMs) interact with you — across platforms, sessions, and use cases. This framework empowers users to generate portable, reusable, and structured profiles that shape assistant behavior through Markdown-based configurations.
 
-## 🛡️ License
-
-This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
-
-You are free to:
-
-- 📤 **Share** — copy and redistribute the material in any medium or format.
-- 🧪 **Adapt** — remix, transform, and build upon the material.
-
-**Under the following terms:**
-
-- 🏷️ **Attribution** — You must give appropriate credit.
-- 🚫 **NonCommercial** — You may not use the material for commercial purposes.
-- 🔁 **ShareAlike** — Derivatives must be licensed under the same terms.
-
-Full license text: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+Rather than relying on isolated prompts or vendor-specific settings, LLMCogKit enables you to build a durable, human-centered interaction model — whether you're a newcomer or a seasoned AI user.
 
 ---
 
-## 📛 Branding & Name Usage
+## 🎯 Who It's For
 
-The name **LLMCogKit** and any associated logos, terminology, and structural documentation patterns are part of this project’s identity and **may not be used for derivative projects** without explicit permission.
+- **Professionals** seeking predictable, reliable LLM behavior
+- **New LLM users** who want structured onboarding and guidance
+- **Teams** standardizing assistant behavior across tools and workflows
+- **Consultants** creating repeatable interaction profiles for multiple clients or projects
 
-If you fork or adapt this project:
+---
 
-- ✅ Feel free to reuse ideas, prompts, file structures, and methodology under the license.
-- 🚫 Do **not** use the name “LLMCogKit” or imply official affiliation.
-- 📣 Please link back to this repository as the source of your inspiration.
+## 🧩 What It Includes
 
-This helps protect the integrity of the project while keeping it open and collaborative.
+- **Conversational Setup Templates** – guided intake for customization, memory, and persona definition
+- **Modular Output Files** – including `customization.md`, `memory_seed.md`, `persona_*.md`
+- **Unified `profile.md` Generator** – merge files into a single config usable across LLMs
+- **Persona Switching Support** – change roles mid-session based on context
+- **Onboarding Companion Layer** – step-by-step user guide and platform usage instructions
+- **Cross-Platform Adaptability** – prepare profiles for tools like ChatGPT, Claude, Notion, and more
+
+---
+
+## 🌍 Why It Matters
+
+Out-of-the-box LLMs are powerful but unpredictable. LLMCogKit helps you:
+
+- Eliminate the need for repetitive prompt engineering
+- Maintain consistent tone, formatting, and memory
+- Version and reuse your setup across platforms and sessions
+- Empower non-technical users with structured personalization
+
+---
+
+## 🧪 Project Status
+
+This project is currently under active development.  
+Early milestones focus on building the `profile.md` builder and onboarding guide.
+
+---
+
+## 📄 License
+
+This project is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
+
+You are free to use, modify, and redistribute the content — even commercially — provided you give proper credit.  
+Naming and branding rights are reserved. See [`LICENSE.md`](./LICENSE.md) for full details.
